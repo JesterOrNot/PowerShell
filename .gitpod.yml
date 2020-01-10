@@ -1,5 +1,2 @@
-image: ubuntu:16.04
-
-tasks:
-  - init: ./tools/install-powershell.sh
-    command: pwsh
+image:
+  file: .gitpod.Dockerfile
