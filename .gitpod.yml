@@ -1,0 +1,3 @@
+tasks:
+  - init: ./tools/install-powershell.sh
+    command: pwsh
